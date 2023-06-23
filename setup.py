@@ -4,5 +4,9 @@ setup(
     name='python_logger',
     packages=find_packages(),
     version='0.1.0',
-    author="Delhaye Adrien"
+    url='https://github.com/delhayead/python-logger',
+    author="Delhaye Adrien",
+    install_requires=[
+        'colorama'
+    ]
 )
